@@ -1,0 +1,249 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar CSS Start */
+
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    width: 100vw;
+    padding: 34px 34px;
+}
+
+nav > div:first-child > img{
+    width: 113px;
+    height: 32px;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+#nav-social-media-icons > svg{
+    fill: #14BF98;
+    width: 24px;
+    height: 24px;
+}
+
+#nav-social-media-icons > svg:hover{
+    fill: white;
+    background-color: #14BF98;
+}
+
+/* Navbar CSS End */
+
+/* Hero Section CSS Start */
+
+#hero-section{
+    position: relative;
+}
+
+#hero-section > img {
+    width: 100%;
+}
+
+#hero-section > div{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#hero-section > div > div{
+    height: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#hero-section > div > div > div{
+    width: 80%;
+    text-align: center;
+}
+
+#hero-section > div > div > h1{
+    font-size: 56px;
+}
+
+#hero-section > div > div > p{
+    font-size: 18px;
+}
+
+
+#hero-section button {
+    padding: 16px 34px;
+    background-color: #14BF98;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s linear, border 0.3s linear, color 0.3s linear;
+}
+
+#hero-section button:hover {
+    background-color: transparent;
+    border: 2px solid #14BF98;
+    color: #14BF98;
+}
+
+/* Hero Section CSS End */
+
+/* Intro Section CSS Start */
+
+#intro-section {
+    padding: 100px 0px;
+}
+
+#intro-section > div {
+    width: 80%;
+}
+
+#intro-section > div:first-child > div:first-child img {
+    width: 530px;
+    border-radius: 8px;
+}
+
+/* #intro-section img:hover{
+} */
+
+#intro-section > div > div:first-child > div {
+    padding: 0px 15px;
+}
+
+#intro-section-upper-left-text-container > div:first-child{
+    color: #14BF98;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#intro-section-upper-left-text-container > h2{
+    color: #484A46;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#intro-section-upper-left-text-container > p{
+    color: #787976;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#intro-section-upper-left-text-container > div:last-child{
+    color: #484A46;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#intro-section-upper-left-text-container{
+    width: 370px;
+}
+
+#intro-section-bottom-cards img {
+    width: 96px;
+    height: 96px;
+}
+
+#intro-section-bottom-cards > div {
+    width: 280px;
+}
+
+#intro-section-bottom-cards p {
+   color: #787976;
+}
+
+#services-section{
+    background-color: #FBFBFB;
+}
+
+#services-cards-container img{
+    width: 292px;
+    height: 169px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#services-cards-container > div{
+    width: 292px;
+    background-color: #FFFFFF;
+    border: 0.8px solid rgb(235, 232, 232);
+}
+
+#services-cards-container {
+    width: 80%;
+}
+
+#services-section > div:first-child{
+    margin-bottom: 52px;
+}
+
+#services-cards-container button{
+    background-color: #14BF98;
+    color: #FFFFFF;
+    padding: 19px 30px;
+}
+
+/* Intro Section CSS End */
+
+/* Common CSS for Flex */
+
+.flex-container{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.gap-10px{
+    gap: 10px;
+}
+
+.gap-15px{
+    gap: 15px;
+}
+
+.gap-20px{
+    gap: 20px;
+}
+
+.gap-40px{
+    gap: 40px;
+}
+
+.primary-font-color {
+    color: black;
+}
+
+.secondary-font-color{
+    color: #787976
+}
+
+.tertiary-font-color{
+    color: #14BF98
+}
